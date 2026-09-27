@@ -1,0 +1,15 @@
+feature,importance,std,share,impact,label
+coding_score,0.18952,0.03924,0.1958,High,Coding / DSA score
+internship,0.17665,0.03146,0.1825,High,Internship
+cgpa,0.14397,0.04008,0.14874,Medium-high,CGPA
+projects,0.13678,0.02706,0.14131,Medium-high,Projects
+aptitude_score,0.06901,0.02578,0.0713,Medium,Aptitude score
+backlogs,0.06127,0.01434,0.0633,Medium,Backlogs
+certifications,0.05345,0.02142,0.05522,Medium,Certifications
+technical_skills_score,0.05182,0.0321,0.05354,Medium,Technical skills score
+communication_score,0.04208,0.01348,0.04348,Medium,Communication score
+attendance_pct,0.01957,0.01311,0.02022,Low,Attendance %
+extracurricular_score,0.01033,0.01097,0.01067,Low,Extracurricular score
+programming_languages,0.00749,0.00455,0.00774,Low,Programming languages
+hackathon,0.00598,0.00924,0.00618,Low,Hackathon participation
+study_hours_per_week,0.0,0.01345,0.0,Low,Study hours / week
