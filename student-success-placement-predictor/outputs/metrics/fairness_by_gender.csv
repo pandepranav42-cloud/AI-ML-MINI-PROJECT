@@ -1,0 +1,4 @@
+gender,students,readiness_accuracy,mean_actual_probability,mean_predicted_probability,pct_predicted_ready_or_above
+Female,87.0,0.885,50.667,50.643,0.46
+Male,147.0,0.85,43.948,44.385,0.415
+Other,6.0,1.0,73.6,71.558,0.833
