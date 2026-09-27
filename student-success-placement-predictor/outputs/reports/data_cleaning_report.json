@@ -1,0 +1,22 @@
+{
+  "rows_in": 1215,
+  "duplicates_removed": 15,
+  "rows_missing_target_removed": 0,
+  "impossible_values_set_to_nan": {
+    "cgpa": 2,
+    "attendance_pct": 2,
+    "coding_score": 1,
+    "study_hours_per_week": 1
+  },
+  "missing_values_after_cleaning": {
+    "cgpa": 2,
+    "attendance_pct": 26,
+    "coding_score": 1,
+    "communication_score": 24,
+    "certifications": 24,
+    "internship": 24,
+    "extracurricular_score": 24,
+    "study_hours_per_week": 25
+  },
+  "rows_out": 1200
+}
