@@ -1,0 +1,86 @@
+{
+  "trained_at_utc": "2026-09-25 08:38",
+  "random_seed": 42,
+  "test_size": 0.2,
+  "cv_folds": 5,
+  "rows_after_cleaning": 1200,
+  "train_rows": 960,
+  "test_rows": 240,
+  "model_features": [
+    "cgpa",
+    "attendance_pct",
+    "backlogs",
+    "coding_score",
+    "aptitude_score",
+    "communication_score",
+    "projects",
+    "certifications",
+    "extracurricular_score",
+    "technical_skills_score",
+    "programming_languages",
+    "study_hours_per_week",
+    "internship",
+    "hackathon"
+  ],
+  "transformed_features": [
+    "cgpa",
+    "attendance_pct",
+    "backlogs",
+    "coding_score",
+    "aptitude_score",
+    "communication_score",
+    "projects",
+    "certifications",
+    "extracurricular_score",
+    "technical_skills_score",
+    "programming_languages",
+    "study_hours_per_week",
+    "internship_Yes",
+    "hackathon_Yes"
+  ],
+  "academic_labels": [
+    "Poor",
+    "Average",
+    "Good",
+    "Excellent"
+  ],
+  "readiness_labels": [
+    "Not Ready",
+    "Developing",
+    "Ready",
+    "Highly Ready"
+  ],
+  "selected_models": {
+    "academic": "XGBoost",
+    "placement": "Logistic Regression",
+    "probability": "XGBoost"
+  },
+  "selection_rule": {
+    "classification": "highest mean 5-fold CV macro-F1 on training set",
+    "regression": "lowest mean 5-fold CV RMSE on training set"
+  },
+  "shap_available": true,
+  "xgboost_available": true,
+  "test_metrics": {
+    "academic": {
+      "accuracy": 0.8,
+      "precision": 0.8143,
+      "recall": 0.8105,
+      "f1": 0.8119,
+      "roc_auc": 0.9592
+    },
+    "placement": {
+      "accuracy": 0.8667,
+      "precision": 0.8416,
+      "recall": 0.8292,
+      "f1": 0.8346,
+      "roc_auc": 0.9746
+    },
+    "probability": {
+      "mae": 7.0748,
+      "rmse": 9.8674,
+      "r2": 0.9305
+    }
+  },
+  "synthetic_data": true
+}
