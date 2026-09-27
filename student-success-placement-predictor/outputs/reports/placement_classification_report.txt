@@ -1,0 +1,12 @@
+Selected model: Logistic Regression
+
+              precision    recall  f1-score   support
+
+   Not Ready      0.879     0.952     0.914        84
+  Developing      0.721     0.689     0.705        45
+       Ready      0.794     0.730     0.761        37
+Highly Ready      0.972     0.946     0.959        74
+
+    accuracy                          0.867       240
+   macro avg      0.842     0.829     0.835       240
+weighted avg      0.865     0.867     0.865       240
