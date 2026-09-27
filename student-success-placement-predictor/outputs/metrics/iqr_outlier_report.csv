@@ -1,0 +1,13 @@
+feature,q1,q3,lower_fence,upper_fence,n_outliers,pct_outliers
+cgpa,6.33,7.57,4.47,9.43,17,1.4
+attendance_pct,72.4,85.0,53.500000000000014,103.89999999999999,5,0.42
+backlogs,0.0,1.0,-1.5,2.5,103,8.48
+coding_score,46.0,69.0,11.5,103.5,4,0.33
+aptitude_score,50.0,69.0,21.5,97.5,13,1.07
+communication_score,56.0,73.0,30.5,98.5,7,0.59
+projects,1.0,3.0,-2.0,6.0,19,1.56
+certifications,0.0,2.0,-3.0,5.0,29,2.43
+extracurricular_score,48.0,68.0,18.0,98.0,14,1.18
+technical_skills_score,35.0,57.0,2.0,90.0,8,0.66
+programming_languages,2.0,4.0,-1.0,7.0,10,0.82
+study_hours_per_week,9.4,18.2,-3.799999999999999,31.4,4,0.34
